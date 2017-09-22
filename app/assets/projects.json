@@ -1,0 +1,81 @@
+[
+    {
+      "link": "rfp",
+      "title": "Refined Reddit Front Page",
+      "desc": "Incredibly minimalistic Reddit front page. Specific subreddits are hardcoded to display only stories (pulled from Reddits JSON API) expected to be informative and beneficial.",
+      "tags": [
+        {"tag":"AngularJS"},
+        {"tag":"Bootstrap"}
+      ]
+    }, {
+      "link": "http://symplie.com/",
+      "title": "Symplie Chrome Extensions",
+      "desc": "A side project started with an old college roommate, creating simple chrome extensions for folks to use.",
+      "tags": [
+        {"tag":"AngularJS"},
+        {"tag":"ReactJS"}
+      ]
+    }, {
+      "link": "#/euler",
+      "title": "A Couple of Euler Problems",
+      "desc": "Some simple writeups for answers to problems from Project Euler.",
+      "tags": [
+        {"tag":"Math"},
+        {"tag":"Java"}
+      ]
+    }, {
+      "link": "close-encounters",
+      "title": "Close Encounters Music Board - Work in Progress",
+      "desc": "A simple and silly little project using some sweet and dorky math to set up an array of musical notes, create colors for them, and play specific tones when they are clicked.",
+      "tags": [
+        {"tag":"Javascript"},
+        {"tag":"HTML"}
+      ]
+    }, {
+      "link": "website-visualization",
+      "title": "Website Visualization Experiementation",
+      "desc": "Visualization idea explaining to my folks how a webpage's code is laid out. Using D3js the inherent tree structure of a website can be properly conveyed.",
+      "tags": [
+        {"tag":"D3.js"}  
+      ]
+    }, {
+      "link": "#/emailip",
+      "title": "Emailing your IP Address",
+      "desc": "A simple explanation of a python script I used to send my desktop's IP address to me by email.",
+      "tags": [
+        {"tag":"Bash"},
+        {"tag":"Python"}
+      ]
+    }, {
+      "link": "#/css-viewer",
+      "title": "CSS Viewer",
+      "desc": "A simple (a rough draft) program designed to convert CSS files and information into a CSV file so that syntactically-correct mistakes can be spotted easily.",
+      "tags": [
+        {"tag":"CSS"},
+        {"tag":"Java"}
+      ]
+    }, {
+      "link": "https://code.google.com/p/cs-3724-group1/",
+      "title": "Basketball Event Tracking Interface< - Human Computer Interaction Project",
+      "desc": "A project designed to study a simulated problem (recording basketball scores quickly and efficiently), research the different aspects that create the issue, then create a proof of concept that can be quantitatively shown to be an improvement to the issue.",
+      "tags": [
+        {"tag":"Objective C"}
+      ]
+    }, {
+      "link": "https://github.com/ajevann/CS4634/",
+      "title": "Interactive Hallway Display - Design of Information Capstone Project",
+      "desc": "A general overview of my capstone group project, focused on designing and creating a proof of concept for a innovative visualization of information at the Virginia Tech Research Center &mdash; Arlington, Virginia.",
+      "tags": [
+        {"tag":"PHP"},
+        {"tag":"Java"},
+        {"tag":"HTML"}
+      ]
+    }, {
+      "link": "https://github.com/ajevann/date-span/",
+      "title": "dateSpan",
+      "desc": "A custom AngularJS filter that can be used to filter a list based on a date span.",
+      "tags": [
+        {"tag":"AngularJS"}
+      ]
+    }]
+    

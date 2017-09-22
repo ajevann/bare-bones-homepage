@@ -20,7 +20,7 @@ var runSequence = require('run-sequence');
 gulp.task('browserSync', function() {
   browserSync({
     server: {
-      baseDir: 'app'
+      baseDir: 'app/'
     }
   })
 });
@@ -61,8 +61,8 @@ gulp.task('watch', function() {
 gulp.task('useref', function() {
   return gulp.src('app/*.html')
     .pipe(useref())
-    .pipe(gulpIf('*.js', uglify()))
-    .pipe(gulpIf('*.css', cssnano()))
+    .pipe(gulpIf('/**/*.js', uglify()))
+    .pipe(gulpIf('/**/*.css', cssnano()))
     .pipe(gulp.dest('dist'));
 });
 
@@ -111,7 +111,7 @@ gulp.task('default', function(callback) {
 gulp.task('build', function(callback) {
   runSequence(
     'clean:dist',
-    'sass', ['useref', 'images', 'fonts'],
+    'sass', ['useref', 'jslint', 'images', 'fonts'],
     callback
   )
 });
